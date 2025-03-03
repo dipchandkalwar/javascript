@@ -45,3 +45,25 @@ const obj3={...obj1, ...obj2}
 // console.log(Object.entries(tinderUser))
 
 console.log(tinderUser.hasOwnProperty("isLogged"));
+
+
+const course={
+    name:"js in hindi",
+    price:"999",
+    instructor:"Hitesh"
+
+}
+
+//for extraction old method
+//course.instructor
+
+const{name : n1}=course
+console.log(n1);
+
+
+//json format
+
+// {
+// "Name":"dip",
+// "coursename":"js in hindi"
+// }
