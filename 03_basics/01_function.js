@@ -30,4 +30,13 @@ function loginUseMessage(username){
     return `${username} just logged in`
 }
 
-console.log(loginUseMessage("dip"));
+// console.log(loginUseMessage("dip"));
+
+const myNewArray=[200,300,400]
+
+function returnSecondValue(getArray){
+
+    return getArray[1];
+}
+
+console.log(returnSecondValue(myNewArray));
